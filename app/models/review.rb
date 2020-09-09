@@ -8,7 +8,7 @@ class Review
     def initialize(customer, restaurant, rating)
         @customer = customer
         @restaurant = restaurant
-        @rating = rating.to_f
+        @rating = rating.to_i
         @@all << self
     end
 

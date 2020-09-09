@@ -10,7 +10,7 @@ end
 c1 = Customer.new("Marco", "Hernandez")
 c2 = Customer.new("Danielle", "Mazzo")
 c3 = Customer.new("Jorge", "Rodriguez")
-c4 = Customer.new("Cristel", "Roman")
+c4 = Customer.new("Marco", "Roman")
 c5 = Customer.new("Edwin", "Banks")
 
 r1 = Restaurant.new("Fridays")
@@ -20,13 +20,13 @@ r4 = Restaurant.new("Vegains")
 r5 = Restaurant.new("Killer Vegan")
 r6 = Restaurant.new("Fruit Bowls")
 
-rev1 = Review.new(c2, r1, 7.5)
+rev1 = Review.new(c2, r1, 7)
 rev2 = Review.new(c1, r3, 10)
-rev3 = Review.new(c2 , r6, 6.7)
+rev3 = Review.new(c2 , r6, 6)
 rev4 = Review.new(c5, r2, 5)
-rev5 = Review.new(c4, r4, 8.9)
+rev5 = Review.new(c4, r4, 8)
 rev6 = Review.new(c1, r2, 10)
-rev7 = Review.new(c1, r2, 3.4)
+rev7 = Review.new(c1, r2, 3)
 
 
 
