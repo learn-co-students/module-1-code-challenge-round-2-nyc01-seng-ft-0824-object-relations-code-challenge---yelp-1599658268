@@ -20,8 +20,9 @@ class Customer
   def restaurants
     # go through Reviews, select the ones where the customer has been, and use uniq enum
       # is this supposed to return just the restaurant's name?
+      # Review.all.find_all{|review| review.customer == self}.map{|restaurant| restaurant.name}.uniq
       Review.all.select{|review| review.customer == self}.uniq
-    # Review.all.select{|review| review.customer == self}.map{|restaurant| restaurant.name}.uniq
+      # Review.all.select{|review| review.customer == self}.map{|restaurant| restaurant.name}.uniq
   end
 
   def add_review(restaurant, rating)
@@ -39,8 +40,7 @@ class Customer
   def self.find_by_name(name)
     # given full name, return the FIRST customer whose full name matches 
       # use find enum
-      # maybe try splitting full name and see if given and family name match the instance?
-      self.all.find{|customer| customer.full_name = name}
+      self.all.find{|customer| customer.full_name == name}
   end
 
   def self.find_all_by_given_name(name)

@@ -103,12 +103,12 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 ### Aggregate and Association Methods
 
-#### Customer
+#### Customer - all working!
 
 <!-- - `Customer#num_reviews`
   - Returns the total number of reviews that a customer has authored -->
-- `Customer.find_by_name(name)` #getting no method error
-  - given a string of a **full name**, returns the **first customer** whose full name matches
+<!-- - `Customer.find_by_name(name)`
+  - given a string of a **full name**, returns the **first customer** whose full name matches -->
 <!-- - `Customer.find_all_by_given_name(name)`
   - given a string of a given name, returns an **array** containing all customers with that given name -->
 
