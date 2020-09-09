@@ -1,4 +1,5 @@
 class Customer
+  
   attr_accessor :given_name, :family_name
   @@all = []
 
@@ -37,13 +38,14 @@ class Customer
   end
 
   def self.find_by_name(name)
-    customer = self.all.find {|item| item.full_name.include?()}
+    customer = self.all.find {|item| item.full_name.include?(name)}
     customer.full_name
   end
 
   def self.find_all_by_given_name(name)
-#    self.all.find {|item| item.given_name}
+#    self.all.find_all {|item| item.given_name}
+#    Close but returning an array with everyone's given name changed to the arguement entered
     self.all.find_all {|item| item.given_name.start_with?(name)}
-
   end
+
 end

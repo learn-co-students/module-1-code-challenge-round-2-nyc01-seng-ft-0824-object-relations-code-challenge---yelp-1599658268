@@ -1,4 +1,5 @@
 class Restaurant
+  
   attr_reader :name
   #Does not ask for @@all in Initializers, keep in mind if needed later
 
@@ -17,4 +18,5 @@ class Restaurant
   def average_star_rating
     self.reviews.collect{|item| item.rating}.sum / self.reviews.length
   end
+
 end

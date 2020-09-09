@@ -1,8 +1,8 @@
 class Review
+ 
     #SSOT
-  
+    #The #customer and #restaurant methods are already complete
     attr_reader :customer, :restaurant
-    #The #customer and #restaurant methods are complete
     attr_accessor :rating
     @@all = []
 
@@ -16,19 +16,5 @@ class Review
     def self.all
         @@all
     end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 end
