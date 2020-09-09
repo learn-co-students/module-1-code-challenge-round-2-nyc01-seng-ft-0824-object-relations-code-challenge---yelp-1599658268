@@ -80,12 +80,12 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Review
 
-- `Review#customer`
+<!-- - `Review#customer`
   - returns the customer object for that review
-  - Once a review is created, should not be able to change the customer
-- `Review#restaurant`
+  - Once a review is created, should not be able to change the customer -->
+<!-- - `Review#restaurant`
   - returns the restaurant object for that given review
-  - Once a review is created, should not be able to change the restaurant
+  - Once a review is created, should not be able to change the restaurant -->
 
 #### Restaurant
 
@@ -96,8 +96,8 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Customer
 
-- `Customer#restaurants`
-  - Returns a **unique** array of all restaurants a customer has reviewed
+<!-- - `Customer#restaurants`
+  - Returns a **unique** array of all restaurants a customer has reviewed -->
 - `Customer#add_review(restaurant, rating)`
   - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
 
