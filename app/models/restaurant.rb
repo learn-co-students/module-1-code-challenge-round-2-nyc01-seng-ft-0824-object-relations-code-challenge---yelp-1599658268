@@ -16,16 +16,23 @@ class Restaurant
   end
 
   def average_star_rating
-    self.reviews.map{|review| review.rating}.sum / self.reviews.length
+    rating = 0
+    rating = self.reviews.map{|review| review.rating}.sum / self.reviews.length
+    rating.round(2)
   end
-  
+   ########## ^^additional comments below
   def self.all
     @@all
   end
 
 end
 
-#### README didn't instruct Restaurant.all class method
-#### however I felt it was good practice to add in case
-#### it can be used for additional helper methods or just 
-#### to see all Restaurant objects/instances
+# README didn't instruct Restaurant.all class method
+# however I felt it was good practice to add in case
+# it can be used for additional helper methods or just 
+# to see all Restaurant objects/instances
+
+### for average_star_rating i didn't like the number being returned
+### having a bunch of decimals if there are floats are reviews
+### so did rating = 0 and have it equal to the sum of the array and 
+### then do the .round(2) to just have a couple of decimals

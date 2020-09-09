@@ -25,7 +25,7 @@ justchicken = Restaurant.new("Just Chicken")
 
 review1 = Review.new(john, goodeats, 5)
 review2 = Review.new(john, goodeats, 4.5) 
-#testing .uniq for Restaurant#customers & Customer#restaurants
+# ^^ testing .uniq for Restaurant#customers & Customer#restaurants
 review3 = Review.new(steve, justchicken, 4)
 review4 = Review.new(steve, goodeats, 5)
 review5 = Review.new(john, justchicken, 4)
