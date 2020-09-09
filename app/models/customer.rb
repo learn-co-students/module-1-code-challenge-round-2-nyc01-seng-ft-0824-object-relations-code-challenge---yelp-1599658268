@@ -1,12 +1,39 @@
 class Customer
   attr_accessor :given_name, :family_name
 
+  @@all = []
+
   def initialize(given_name, family_name)
     @given_name = given_name
     @family_name  = family_name
+    @@all << self 
   end
 
   def full_name
     "#{given_name} #{family_name}"
   end
+
+  def self.all
+    @@all
+  end 
+
+  def cust_restaurants #helper method for #restaurants
+    Review.all.select {|rest|rest.restaurant}
+  end 
+
+  def restaurants
+    cust_restaurants.filter {|cust|cust.customer ==self }
+  end 
+
+  def add_review(restaurant, rating)
+    Review.new(self, restaurant, rating)
+  end 
+
+  def num_reviews
+    restaurants.map.count {}
+  end 
+
+
+
+
 end
