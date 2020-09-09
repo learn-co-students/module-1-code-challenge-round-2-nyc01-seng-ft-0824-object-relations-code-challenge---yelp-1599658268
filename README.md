@@ -98,8 +98,8 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 <!-- - `Customer#restaurants`
   - Returns a **unique** array of all restaurants a customer has reviewed -->
-- `Customer#add_review(restaurant, rating)`
-  - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
+<!-- - `Customer#add_review(restaurant, rating)`
+  - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant. -->
 
 ### Aggregate and Association Methods
 

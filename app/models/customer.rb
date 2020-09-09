@@ -26,9 +26,7 @@ class Customer
   end
 
   def add_review(restaurant, rating)
-    # given a **restaurant object** and a star rating (as an integer), 
-    # creates a new review and associates it with that customer and restaurant
-    new_review = Review.new(:restaurant, :rating)
+    Review.new(self, restaurant, rating)
   end
 
 end
