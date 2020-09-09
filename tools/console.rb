@@ -9,9 +9,13 @@ end
 
 
 john = Customer.new("John", "Joe")
+testingA_R = Customer.new("Grimey", "Tilted")
+
 goodeats = Restaurant.new("GoodEats")
 
-review1 = Review.new(john, goodeats, 5)
 
+review1 = Review.new(john, goodeats, 5)
+review2 = Review.new(john, goodeats, 4.5) 
+#testing .uniq for Restaurant#customers & Customer#restaurants
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line

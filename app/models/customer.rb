@@ -12,8 +12,20 @@ class Customer
     "#{given_name} #{family_name}"
   end
 
+  def reviews
+    Review.all.select{|review| review.customer == self}
+  end
+
+  def restaurants
+    self.reviews.map{|review| review.restaurant}.uniq
+  end
+  
+  def add_review(restaurant, rating)
+    Review.new(self, restaurant, rating)
+  end
+
   def self.all
     @@all
   end
-  
+
 end
