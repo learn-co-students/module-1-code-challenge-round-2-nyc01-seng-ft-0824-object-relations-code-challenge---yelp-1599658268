@@ -15,7 +15,7 @@ rest1 = Restaurant.new("Crabshack")
 rest2 = Restaurant.new("Tacos Shop")
 rest3 = Restaurant.new("Italian Subs")
 
-review1 = Review.new(cust1, rest1, 5)
+review1 = Review.new(cust1, rest2, 5)
 review2 = Review.new(cust2, rest2, 4)
 review3 = Review.new(cust3, rest3, 2)
 review4 = Review.new(cust3, rest1, 4)
