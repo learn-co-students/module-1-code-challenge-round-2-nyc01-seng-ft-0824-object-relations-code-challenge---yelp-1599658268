@@ -19,10 +19,8 @@ class Customer
 
   def restaurants
     # go through Reviews, select the ones where the customer has been, and use uniq enum
-      # is this supposed to return just the restaurant's name?
-      # Review.all.find_all{|review| review.customer == self}.map{|restaurant| restaurant.name}.uniq
+      # is this supposed to return just the restaurant's name? - instances!
       Review.all.select{|review| review.customer == self}.uniq
-      # Review.all.select{|review| review.customer == self}.map{|restaurant| restaurant.name}.uniq
   end
 
   def add_review(restaurant, rating)

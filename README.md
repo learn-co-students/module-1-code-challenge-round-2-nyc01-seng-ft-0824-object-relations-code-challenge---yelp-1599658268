@@ -67,7 +67,7 @@ Some of the methods listed are provided to you in the starter code. You should c
   - returns the restaurant's name
   - should not be able to change after the restaurant is created -->
 
-#### Review -- all working 
+#### Review -- working 
 
 <!-- - `Review#initialize`
   - Reviews should be initialized with a customer, restaurant, and a rating (a number) -->
@@ -94,10 +94,10 @@ Some of the methods listed are provided to you in the starter code. You should c
 <!-- - `Restaurant#customers`
   - Returns a **unique** list of all customers who have reviewed a particular restaurant. -->
 
-#### Customer
+#### Customer -- all working 
 
-- `Customer#restaurants`
-  - Returns a **unique** array of all restaurants a customer has reviewed
+<!-- - `Customer#restaurants`
+  - Returns a **unique** array of all restaurants a customer has reviewed -->
 <!-- - `Customer#add_review(restaurant, rating)`
   - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant. -->
 

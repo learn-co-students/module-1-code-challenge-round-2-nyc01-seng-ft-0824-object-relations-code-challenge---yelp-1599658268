@@ -10,6 +10,7 @@ end
 dragonstone = Restaurant.new("Dragonstone")
 kings_landing = Restaurant.new("Kings Landing")
 winterfell = Restaurant.new("Winterfell")
+qarth = Restaurant.new("Qarth")
 
 daenerys = Customer.new("Daenerys", "Targaryen")
 missandei = Customer.new("Missandei", "of Naath")
@@ -19,9 +20,10 @@ sansa = Customer.new("Sansa", "Stark")
 
 dr_review = Review.new(daenerys, dragonstone, 4)
 dr_review1 = Review.new(missandei, dragonstone, 3)
-dr_review = Review.new(grey, dragonstone, 5)
+dr_review2 = Review.new(grey, dragonstone, 5)
+qarth_review = Review.new(daenerys, qarth, 1)
 kl_review = Review.new(cersei, kings_landing, 2)
-kl_review2 = Review.new(sansa, kings_landing, 1)
+kl_review2 = Review.new(sansa, kings_landing, 0)
 wf_review = Review.new(sansa, winterfell, 5)
 
 binding.pry
