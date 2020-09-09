@@ -16,14 +16,23 @@ class Customer
     @@all
   end
 
+  def reviews
+    Review.all.select {|review| review.customer == self}
+  end
+
   def restaurants
-    Review.all.select {|review| review.rating.sef)
+    #Returns a **unique** array of all restaurants a customer has reviewed
+    reviews.map {|review| review.restaurant}.uniq
   end
 
   def add_review(resturant,rating)
-    Review.new(self, restaurant, rating)
+    reviews.new(self, restaurant, rating)
+  end
+
+  def num_reviews
+    #Returns the total number of reviews that a customer has authored
+    reviews.map {|review| review.restaurant}.count
   end
 
 
-  
 end

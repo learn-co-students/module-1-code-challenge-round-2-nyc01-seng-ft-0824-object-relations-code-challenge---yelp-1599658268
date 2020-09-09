@@ -12,12 +12,13 @@ cust2 = Customer.new("jim", "jimmyson")
 
 rest1 = Restaurant.new("JWF")
 rest2 = Restaurant.new("sam woo")
+rest3 = Restaurant.new("nick diner")
 
 rev1 = Review.new(cust1, rest1, 5)
 rev2 = Review.new(cust1, rest2, 3)
 rev3 = Review.new(cust2, rest1, 2)
 rev4 = Review.new(cust2, rest2, 4)
-
+rev5 = Review.new(cust1, rest3, 4)
 
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
