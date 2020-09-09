@@ -19,7 +19,7 @@ review1 = Review.new(larry, ginas, 3)
 review2 = Review.new(moe, tonys, 1)
 review3 = Review.new(curly, aris, 5)
 review4 = Review.new(curly, ginas, 2)
-review5 = Review.new(moe, aris, 5)
+review5 = Review.new(moe, aris, 4)
 review6 = Review.new(larry, aris, 5)
 review7 = Review.new(curly, tonys, 3)
 

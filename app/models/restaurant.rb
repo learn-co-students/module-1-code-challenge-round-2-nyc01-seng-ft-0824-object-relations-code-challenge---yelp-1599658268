@@ -13,4 +13,7 @@ class Restaurant
     self.reviews.filter {|restaurant| restaurant.customer}.uniq
   end
 
+  def average_star_rating
+    reviews.map {|review| review.rating}.sum / reviews.length
+  end
 end

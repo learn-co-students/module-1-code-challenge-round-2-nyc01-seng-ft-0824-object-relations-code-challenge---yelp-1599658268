@@ -105,8 +105,8 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Customer
 
-- `Customer#num_reviews`
-  - Returns the total number of reviews that a customer has authored
+<!-- - `Customer#num_reviews`
+  - Returns the total number of reviews that a customer has authored -->
 - `Customer.find_by_name(name)`
   - given a string of a **full name**, returns the **first customer** whose full name matches
 - `Customer.find_all_by_given_name(name)`
@@ -114,9 +114,9 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Restaurant
 
-- `Restaurant#average_star_rating`
+<!-- - `Restaurant#average_star_rating`
   - returns the average star rating for a restaurant based on its reviews
-  - Reminder: you can calculate the average by adding up all the ratings and dividing by the number of ratings
+  - Reminder: you can calculate the average by adding up all the ratings and dividing by the number of ratings -->
 
 ## Rubric
 

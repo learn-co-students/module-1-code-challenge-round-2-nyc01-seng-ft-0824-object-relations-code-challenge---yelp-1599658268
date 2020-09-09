@@ -29,4 +29,14 @@ class Customer
     Review.new(self, restaurant, rating)
   end
 
+  def num_reviews
+    self.reviews.count
+  end
+
+  def self.find_by_name(name)
+    if self.name == name
+      name.first
+    end
+  end
+
 end
