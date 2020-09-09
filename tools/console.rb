@@ -19,11 +19,12 @@ rest2 = Restaurant.new("Full Metal Gastropub")
 rev1 = Review.new(cust1, rest1, 4)
 rev3 = Review.new(cust2, rest1, 5)
 rev5 = Review.new(cust1, rest1, 3)
+rev9 = Review.new(cust4, rest1, 9)
 
 rev2 = Review.new(cust1, rest2, 2)
 rev4 = Review.new(cust3, rest2, 4)
 rev6 = Review.new(cust2, rest2, 1)
-rev7 = Review.new(cust4, rest2, 5)
+rev7 = Review.new(cust4, rest2, 5.5)
 rev8 = Review.new(cust5, rest2, 100)
 
 

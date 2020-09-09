@@ -14,8 +14,7 @@ class Restaurant
   end
 
   def average_star_rating
-    average = reviews.map { |star| star.rating }.sum / reviews.count 
-    average.to_f
+    reviews.map { |star| star.rating }.sum.to_f / reviews.count.to_f
   end
 
 end
