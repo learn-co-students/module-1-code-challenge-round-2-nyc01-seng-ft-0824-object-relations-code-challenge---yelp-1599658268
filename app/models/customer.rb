@@ -32,7 +32,8 @@ class Customer
       # will use sum enum or local variable to += 1
         # sum didn't work...try length or count?
           # changed from map which is counting number of all reviews to select
-      Review.all.select{|review| review.customer == self}.count
+      # Review.all.select{|review| review.customer == self}.count <- realized I have restaurants method above!
+      self.restaurants.count
   end
 
   def self.find_by_name(name)
