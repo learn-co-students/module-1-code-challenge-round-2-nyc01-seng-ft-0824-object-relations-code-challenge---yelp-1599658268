@@ -5,4 +5,12 @@ class Restaurant
     @name = name
   end
 
+  def reviews
+    Review.all.filter { |rev| rev.restaurant == self }
+  end
+
+  def customers 
+    reviews.map { |cust| cust.customer }.uniq
+  end
+  
 end

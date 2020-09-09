@@ -44,7 +44,7 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 ### Initializers, Readers, and Writers
 
-#### Customer
+<!-- #### Customer
 
 - `Customer#initialize`
   - Customer should be initialized with a given name and family name, both strings (i.e., first and last name, like George Washington)"
@@ -57,15 +57,15 @@ Some of the methods listed are provided to you in the starter code. You should c
 - `Customer#full_name`
   - returns the full name of the customer, with the given name and the family name concatenated, Western style.
 - `Customer.all`
-  - returns **all** of the customer instances
+  - returns **all** of the customer instances -->
 
-#### Restaurant
+<!-- #### Restaurant
 
 - `Restaurant#initialize`
   - Restaurants should be initialized with a name, as a string
 - `Restaurant#name`
   - returns the restaurant's name
-  - should not be able to change after the restaurant is created
+  - should not be able to change after the restaurant is created -->
 
 #### Review
 
