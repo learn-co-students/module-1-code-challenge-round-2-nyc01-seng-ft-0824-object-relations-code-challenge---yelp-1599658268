@@ -21,6 +21,7 @@ dr_review = Review.new(daenerys, dragonstone, 4)
 dr_review1 = Review.new(missandei, dragonstone, 3)
 dr_review = Review.new(grey, dragonstone, 5)
 kl_review = Review.new(cersei, kings_landing, 2)
+kl_review2 = Review.new(sansa, kings_landing, 1)
 wf_review = Review.new(sansa, winterfell, 5)
 
 binding.pry
