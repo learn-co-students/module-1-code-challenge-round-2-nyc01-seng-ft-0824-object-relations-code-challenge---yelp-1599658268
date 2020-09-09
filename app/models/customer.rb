@@ -34,11 +34,16 @@ class Customer
     reviews.map {|review| review.restaurant}.count
   end
 
-  # def Self.find_by_name(name)
+  def Self.find_by_name(name)
     #given a string of a **full name**, 
     #returns the **first customer** whose full name matches
       # Customer.find {|customer| == given_name, family_name}
-  # end
+  end
 
+  def self.find_all_by_given_name(name)
+  #will utilize the class method above. instead of the first with ".find" it will
+  #be with .all
+  
+  end
 
 end
