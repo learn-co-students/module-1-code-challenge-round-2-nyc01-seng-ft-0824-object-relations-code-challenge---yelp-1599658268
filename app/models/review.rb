@@ -16,15 +16,6 @@ class Review
            @@all
       end
   
-
-      def customer # ***GETTING NIL
-          #***
-
-      end
-      def restaurant
-        #***
-
-      end
       
       
 end

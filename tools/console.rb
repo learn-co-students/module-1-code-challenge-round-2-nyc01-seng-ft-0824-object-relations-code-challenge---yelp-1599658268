@@ -50,6 +50,7 @@ papaye_rev   = Review.new(bobby, papaye,   4)
 zeez_rev1     = Review.new(billybob, zeez,  2)
 zeez_rev2     = Review.new(bobby,    zeez,  5)
 zeez_rev3     = Review.new(wanda,    zeez, 12)
+zeez_rev4     = Review.new(billybob, zeez,  4)
 
 ####  (customer, restaurant, rating)
 
