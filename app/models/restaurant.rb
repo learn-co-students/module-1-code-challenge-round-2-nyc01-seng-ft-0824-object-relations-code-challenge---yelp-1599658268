@@ -12,6 +12,7 @@ class Restaurant
   end
 
   def reviews
+    #returns an array of all reviews for that restaurant
     Review.all.select {|review| review.restaurant == self}
   end
 
@@ -19,8 +20,16 @@ class Restaurant
     reviews.map {|review| review.customer}.uniq
   end
 
+  # def rating
+  #   Review.all.select {|review| review.rating}
+  # end
+
+  def average_star_rating
+    review.map {|review| review.rating}.sum
+  end
 
 
 
-  
+
+
 end

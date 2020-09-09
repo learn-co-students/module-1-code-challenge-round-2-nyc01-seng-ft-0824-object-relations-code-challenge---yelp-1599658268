@@ -9,6 +9,7 @@ end
 
 cust1 = Customer.new("chloe", "chang")
 cust2 = Customer.new("jim", "jimmyson")
+cust2 = Customer.new("jim", "jimmy")
 
 rest1 = Restaurant.new("JWF")
 rest2 = Restaurant.new("sam woo")
