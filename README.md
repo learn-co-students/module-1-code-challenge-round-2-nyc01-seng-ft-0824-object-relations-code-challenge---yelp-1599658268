@@ -67,16 +67,16 @@ Some of the methods listed are provided to you in the starter code. You should c
   - returns the restaurant's name
   - should not be able to change after the restaurant is created -->
 
-#### Review
+<!-- #### Review
 
 - `Review#initialize`
   - Reviews should be initialized with a customer, restaurant, and a rating (a number)
 - `Review#rating`
   - returns the rating for a restaurant.
 - `Review.all`
-  - returns all of the reviews
+  - returns all of the reviews -->
 
-### Object Relationship Methods
+<!-- ### Object Relationship Methods
 
 #### Review
 
@@ -85,38 +85,38 @@ Some of the methods listed are provided to you in the starter code. You should c
   - Once a review is created, should not be able to change the customer
 - `Review#restaurant`
   - returns the restaurant object for that given review
-  - Once a review is created, should not be able to change the restaurant
-
+  - Once a review is created, should not be able to change the restaurant -->
+<!-- 
 #### Restaurant
 
 - `Restaurant#reviews`
   - returns an array of all reviews for that restaurant
 - `Restaurant#customers`
-  - Returns a **unique** list of all customers who have reviewed a particular restaurant.
-
+  - Returns a **unique** list of all customers who have reviewed a particular restaurant. -->
+<!-- 
 #### Customer
 
 - `Customer#restaurants`
   - Returns a **unique** array of all restaurants a customer has reviewed
 - `Customer#add_review(restaurant, rating)`
-  - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
+  - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant. -->
 
-### Aggregate and Association Methods
+<!-- ### Aggregate and Association Methods
 
 #### Customer
 
 - `Customer#num_reviews`
-  - Returns the total number of reviews that a customer has authored
-- `Customer.find_by_name(name)`
-  - given a string of a **full name**, returns the **first customer** whose full name matches
-- `Customer.find_all_by_given_name(name)`
-  - given a string of a given name, returns an **array** containing all customers with that given name
+  - Returns the total number of reviews that a customer has authored -->
+<!-- - `Customer.find_by_name(name)`
+  - given a string of a **full name**, returns the **first customer** whose full name matches -->
+<!-- - `Customer.find_all_by_given_name(name)`
+  - given a string of a given name, returns an **array** containing all customers with that given name -->
 
-#### Restaurant
+<!-- #### Restaurant
 
 - `Restaurant#average_star_rating`
   - returns the average star rating for a restaurant based on its reviews
-  - Reminder: you can calculate the average by adding up all the ratings and dividing by the number of ratings
+  - Reminder: you can calculate the average by adding up all the ratings and dividing by the number of ratings -->
 
 ## Rubric
 
