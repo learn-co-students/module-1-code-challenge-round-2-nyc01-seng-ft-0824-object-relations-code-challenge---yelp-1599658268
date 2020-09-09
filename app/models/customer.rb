@@ -30,7 +30,11 @@ class Customer
   end 
 
   def num_reviews
-    restaurants.map.count {}
+    restaurants.map.count {|rev|rev.customer == self}
+  end 
+
+  def self.find_by_name(name)
+    self.all.find {|name|name.full_name == full_name}
   end 
 
 

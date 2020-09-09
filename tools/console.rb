@@ -20,7 +20,7 @@ review2 = Review.new(cust2, rest2, 4)
 review3 = Review.new(cust3, rest3, 2)
 review4 = Review.new(cust3, rest1, 4)
 review5 = Review.new(cust2, rest3, 1)
-
+review6 = Review.new(cust3, rest2, 3)
 
 
 
