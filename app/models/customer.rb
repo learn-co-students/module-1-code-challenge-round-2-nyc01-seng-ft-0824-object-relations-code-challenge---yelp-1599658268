@@ -20,7 +20,7 @@ class Customer
   def restaurants
     # go through Reviews, select the ones where the customer has been, and use uniq enum
       # is this supposed to return just the restaurant's name? - instances!
-      Review.all.select{|review| review.customer == self}.uniq
+    Review.all.select{|review| review.customer == self}.uniq
   end
 
   def add_review(restaurant, rating)
@@ -33,13 +33,13 @@ class Customer
         # sum didn't work...try length or count?
           # changed from map which is counting number of all reviews to select
       # Review.all.select{|review| review.customer == self}.count <- realized I have restaurants method above!
-      self.restaurants.count
+    self.restaurants.count
   end
 
   def self.find_by_name(name)
     # given full name, return the FIRST customer whose full name matches 
       # use find enum
-      self.all.find{|customer| customer.full_name == name}
+    self.all.find{|customer| customer.full_name == name}
   end
 
   def self.find_all_by_given_name(name)
