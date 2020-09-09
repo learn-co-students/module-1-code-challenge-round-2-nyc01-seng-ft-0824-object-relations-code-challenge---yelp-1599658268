@@ -2,6 +2,7 @@ class Review
     #SSOT
   
     attr_reader :customer, :restaurant
+    #The #customer and #restaurant methods are complete
     attr_accessor :rating
     @@all = []
 

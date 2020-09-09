@@ -11,6 +11,7 @@ mcdonalds = Restaurant.new("McDonalds")
 wendies = Restaurant.new("Wendies")
 applebees = Restaurant.new("Applebees")
 tgif = Restaurant.new("Fridays")
+tbell = Restaurant.new("Taco Bell")
 
 cliff = Customer.new("Cliff", "Jackson")
 paul = Customer.new("Paul", "Smith")
