@@ -33,14 +33,17 @@ class Customer
   end
 
   def num_reviews
-
+    self.reviews.length
   end
 
   def self.find_by_name(name)
-
+    customer = self.all.find {|item| item.full_name.include?()}
+    customer.full_name
   end
 
   def self.find_all_by_given_name(name)
+#    self.all.find {|item| item.given_name}
+    self.all.find_all {|item| item.given_name.start_with?(name)}
 
   end
 end

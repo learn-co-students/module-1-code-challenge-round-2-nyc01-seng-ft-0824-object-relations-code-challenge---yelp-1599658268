@@ -17,6 +17,8 @@ cliff = Customer.new("Cliff", "Jackson")
 paul = Customer.new("Paul", "Smith")
 jamie = Customer.new("Jamie", "Rodriguez")
 sam = Customer.new("Samantha", "Ruiz")
+jack = Customer.new("Jack", "Sparrow")
+paule = Customer.new("Paul", "E")
 
 rev1 = Review.new(cliff, tgif, 5)
 rev2 = Review.new(cliff, applebees, 3)
