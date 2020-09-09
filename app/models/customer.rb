@@ -10,7 +10,7 @@ class Customer
   end
 
   def full_name
-    "#{given_name} #{family_name}"
+    "#{given_name} #{family_name}" #i tried .font(western) also searched for it on Ruby docs
   end
 
   def self.all
@@ -30,9 +30,7 @@ class Customer
   end
 
   def num_reviews
-    num_reviews = 0
-    total_reviews = Customer.all.length
-    self.reviews.collect { }
+    self.reviews.count { |review| self.reviews.length }
   end
 
   def self.find_by_name(name)
