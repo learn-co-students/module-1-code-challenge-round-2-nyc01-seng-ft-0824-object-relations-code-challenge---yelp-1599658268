@@ -7,18 +7,24 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
+mcdonalds = Restaurant.new("McDonalds")
+wendies = Restaurant.new("Wendies")
+applebees = Restaurant.new("Applebees")
+tgif = Restaurant.new("Fridays")
 
+cliff = Customer.new("Cliff", "Jackson")
+paul = Customer.new("Paul", "Smith")
+jamie = Customer.new("Jamie", "Rodriguez")
+sam = Customer.new("Samantha", "Ruiz")
 
-
-
-
-
-
-
-
-
-
-
+rev1 = Review.new(cliff, tgif, 5)
+rev2 = Review.new(cliff, applebees, 3)
+rev3 = Review.new(cliff, wendies, 2)
+rev4 = Review.new(paul, tgif, 3)
+rev5 = Review.new(paul, mcdonalds, 2)
+rev6 = Review.new(jamie, applebees, 1)
+rev7 = Review.new(sam, tgif, 4)
+rev8 = Review.new(sam, applebees, 4)
 
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
