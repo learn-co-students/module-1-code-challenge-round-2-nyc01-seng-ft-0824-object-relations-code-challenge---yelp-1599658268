@@ -5,4 +5,26 @@ class Restaurant
     @name = name
   end
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 end
