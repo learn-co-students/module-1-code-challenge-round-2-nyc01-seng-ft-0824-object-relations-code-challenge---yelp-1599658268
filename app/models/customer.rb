@@ -8,13 +8,14 @@ class Customer
     @@all << self
   end
 
+  def self.all
+    @@all
+  end
+
   def full_name
     "#{given_name} #{family_name}"
   end
   
-  def self.all
-    @@all
-  end
 
   def restaurants
     # go through Reviews, select the ones where the customer has been, and use uniq enum
@@ -36,7 +37,14 @@ class Customer
   end
 
   def self.find_by_name(name)
+    # given full name, return the FIRST customer whose full name matches 
+      # use find enum
+      # maybe try splitting full name and see if given and family name match the instance?
+      self.all.find{|customer| customer.full_name = name}
+  end
 
+  def self.find_all_by_given_name(name)
+    self.all.find_all{|customer| customer.given_name == name}
   end
 
 end
