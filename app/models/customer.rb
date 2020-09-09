@@ -33,11 +33,15 @@ class Customer
     restaurants.map.count {|rev|rev.customer == self}
   end 
 
-  def self.find_by_name(name) 
-    self.all.find {|name|name.full_name == full_name}
+  def self.find_by_name(name)            # was looking to find the first matching full name and return got all same returns, so close!!
+    self.all.find {|name|name.full_name}
   end 
 
-  
+  def self.find_by_given_name(name)
+    self.all.find {|name|name.given_name}
+  end 
+
+
 
 
 
