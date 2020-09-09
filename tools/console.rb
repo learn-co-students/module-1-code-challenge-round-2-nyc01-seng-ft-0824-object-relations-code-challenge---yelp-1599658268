@@ -12,10 +12,14 @@ kings_landing = Restaurant.new("Kings Landing")
 winterfell = Restaurant.new("Winterfell")
 
 daenerys = Customer.new("Daenerys", "Targaryen")
+missandei = Customer.new("Missandei", "of Naath")
+grey = Customer.new("Grey", "Worm")
 cersei = Customer.new("Cersei", "Lannister")
 sansa = Customer.new("Sansa", "Stark")
 
 dr_review = Review.new(daenerys, dragonstone, 4)
+dr_review1 = Review.new(missandei, dragonstone, 3)
+dr_review = Review.new(grey, dragonstone, 5)
 kl_review = Review.new(cersei, kings_landing, 2)
 wf_review = Review.new(sansa, winterfell, 5)
 

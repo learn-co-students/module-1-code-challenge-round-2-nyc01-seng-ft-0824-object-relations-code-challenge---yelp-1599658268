@@ -16,4 +16,8 @@ class Customer
     @@all
   end
 
+  def restaurants
+    
+  end
+
 end
