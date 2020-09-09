@@ -89,10 +89,10 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Restaurant
 
-- `Restaurant#reviews`
-  - returns an array of all reviews for that restaurant
-- `Restaurant#customers`
-  - Returns a **unique** list of all customers who have reviewed a particular restaurant.
+<!-- - `Restaurant#reviews`
+  - returns an array of all reviews for that restaurant -->
+<!-- - `Restaurant#customers`
+  - Returns a **unique** list of all customers who have reviewed a particular restaurant. -->
 
 #### Customer
 
