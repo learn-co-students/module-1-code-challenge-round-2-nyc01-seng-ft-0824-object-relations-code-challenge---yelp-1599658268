@@ -83,9 +83,9 @@ Some of the methods listed are provided to you in the starter code. You should c
 - `Review#customer`
   <!-- - returns the customer object for that review
   - Once a review is created, should not be able to change the customer
-- `Review#restaurant`
+<!-- - `Review#restaurant`
   - returns the restaurant object for that given review
-  - Once a review is created, should not be able to change the restaurant -->
+  - Once a review is created, should not be able to change the restaurant --> -->
 
 #### Restaurant
 <!-- 

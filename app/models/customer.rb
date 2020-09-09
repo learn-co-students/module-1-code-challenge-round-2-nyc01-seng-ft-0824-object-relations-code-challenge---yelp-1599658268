@@ -20,13 +20,18 @@ class Customer
     self.reviews.map {|review| review.restaurant}.uniq
   end
 
-  def add_review(restaurant, rating)
-    self.reviews.map 
-  end
+  # def add_review(restaurant, rating)
+  #   self.reviews.map {|review| review.add_review}.restaurant
+  # end
 
   def full_name
     "#{given_name} #{family_name}"
   end
+
+  def num_reviews
+    self.reviews.filter {|review| review.customer}.count
+  end
+
 
   # def self.find_all_by_given_name(name)
 

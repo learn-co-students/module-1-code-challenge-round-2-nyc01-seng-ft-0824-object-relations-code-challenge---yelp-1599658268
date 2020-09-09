@@ -16,6 +16,4 @@ class Restaurant
   def customers
     self.reviews.map {|review| review.customer}
   end
-
-
 end
