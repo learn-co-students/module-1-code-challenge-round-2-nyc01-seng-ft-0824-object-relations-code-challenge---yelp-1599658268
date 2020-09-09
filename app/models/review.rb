@@ -15,7 +15,7 @@ class Review
 
     def self.all
         @@all
-      end
+    end
 
 
 
