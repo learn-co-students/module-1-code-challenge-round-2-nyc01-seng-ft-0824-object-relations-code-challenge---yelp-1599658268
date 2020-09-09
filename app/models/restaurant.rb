@@ -14,26 +14,7 @@ class Restaurant
     self.reviews.map{|rest| rest.customer}.uniq
   end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  def average_star_rating
+    self.reviews.collect{|item| item.rating}.sum / self.reviews.length
+  end
 end

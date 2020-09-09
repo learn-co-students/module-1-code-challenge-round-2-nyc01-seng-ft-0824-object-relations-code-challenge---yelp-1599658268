@@ -32,8 +32,15 @@ class Customer
 #      "I did not eat at this establishment!"
   end
 
+  def num_reviews
 
+  end
 
+  def self.find_by_name(name)
 
+  end
 
+  def self.find_all_by_given_name(name)
+
+  end
 end
