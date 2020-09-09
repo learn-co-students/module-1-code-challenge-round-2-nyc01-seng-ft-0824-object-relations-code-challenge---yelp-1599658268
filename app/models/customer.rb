@@ -31,7 +31,7 @@ class Customer
     # returns total number of reviews customer has authored
       # will use sum enum or local variable to += 1
         # sum didn't work...try length or count?
-          # change from mapping which is counting number of all reviews to select
+          # changed from map which is counting number of all reviews to select
       Review.all.select{|review| review.customer == self}.count
   end
 
